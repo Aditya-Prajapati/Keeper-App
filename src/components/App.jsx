@@ -7,7 +7,7 @@ import CreateArea from "./CreateArea";
 
 export default function App(){
 
-    const [notes, setNotes] = useState([{"title": "Note1", content: "Note1 Content"}]);
+    const [notes, setNotes] = useState([{"title": "Welcome to Keeper", content: "Click on 'Take a note...' and press + icon to add note."}]);
 
     function addNote(note, event){
         setNotes((prevValues) => {
